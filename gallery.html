@@ -1,17 +1,47 @@
-PRIYANSHU DIGITAL GURUKUL COMPUTER INSTITUTE
-Digital Education for Every Student
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Priyanshu Digital Gurukul</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gallery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
 
-Home
-Courses
-About
-Gallery
-Gallery / गैलरी
-Class 1 Class 2 Class 3
-हमारे Institute की गतिविधियों और क्लासेज की झलकियाँ।
+  <section>
+    <h2>संस्थान की झलकियाँ (Our Institute in Pictures)</h2>
+    <div class="gallery">
+      <img src="images/class1.jpg" alt="Classroom">
+      <img src="images/students1.jpg" alt="Students">
+      <img src="images/lab1.jpg" alt="Computer Lab">
+      <img src="images/event1.jpg" alt="Event">
+    </div>
+  </section>
 
-📍 Lalganj, Raebareli, Uttar Pradesh | 📞 6386836651 | ✉️ ramnarayanramn@gmail.com
-
-Priyanshu Pal Instagram YouTube
-© 2025 Priyanshu Digital Gurukul | Learn Today, Lead Tomorrow
-
-💬
+  <footer>
+    <p>📍 Lalganj, Raebareli | © 2025 Priyanshu Digital Gurukul</p>
+  </footer>
+</body>
+</html>
